@@ -1,0 +1,55 @@
+.status-bar {
+  position: absolute;
+  position: fixed;
+  top: 0;
+  display: flex;
+  height: 25px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: var(--mid bg);
+}
+
+.status-bar div {
+  width: 50%;
+}
+
+.center-block {
+  background-color: var(--darkbg);
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  top: -25px;
+  border-radius: 20px;
+}
+
+.status-bar__left {
+  width: 25%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.status-bar i {
+  margin-left: 7px;
+}
+
+.fa-wifi {
+  margin-right: 23px;
+}
+
+.fa-battery-half {
+  position: absolute;
+  top: 7px;
+}
+
+.status-bar__right {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

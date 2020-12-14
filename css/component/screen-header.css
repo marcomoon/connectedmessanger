@@ -1,0 +1,15 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 45px;
+  height: 80px;
+  border-radius: 5px;
+  padding: 0 25px;
+  font-size: 30px;
+  background-color: var(--ligbg);
+}
+
+.screen-header i:not(:last-child) {
+  margin-right: 15px;
+}
