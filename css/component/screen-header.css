@@ -2,14 +2,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 45px;
+  border-top: 45px solid #141414;
   height: 80px;
   border-radius: 5px;
   padding: 0 25px;
+  position: fixed;
+  width: 100%;
   font-size: 30px;
   background-color: var(--ligbg);
+  box-sizing: content-box;
 }
 
 .screen-header i:not(:last-child) {
+  margin-right: 15px;
+}
+
+.screen-header i:not(.fa-angle-left):last-child {
+  margin-right: 55px;
+}
+
+.fa-angle-left {
   margin-right: 15px;
 }

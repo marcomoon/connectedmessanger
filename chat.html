@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <title>Settings - Connected</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__left">
+        <span class="status-bar__time">20:23</span>
+        <i class="fas fa-location-arrow fa-xs"></i>
+      </div>
+      <div class="center-block"></div>
+      <div class="status-bar__right">
+        <i class="fas fa-signal fa-xs"></i>
+        <i class="fas fa-wifi fa-xs"></i>
+        <i class="fas fa-battery-half fa-sm"></i>
+      </div>
+    </div>
+    <div class="chat-header">
+      <div class="chat-header__left">
+        <a href="chats.html"><i class="fas fa-angle-left"></i></a>
+      </div>
+      <div class="chat-header__center">Gabrielle</div>
+      <div class="chat-header__right">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+    <div class="container">
+      <div class="chat-container">
+        <div class="your__chat">
+          <img src="img/gabrielle.jpg" class="chat-profile__pic" />
+          <div class="your__text">
+            <div class="your__name">Gabrielle</div>
+            <div class="your__message">Hello How's your day</div>
+            <div class="your__time">18:14</div>
+          </div>
+        </div>
+        <div class="my__chat">
+          <div class="my__text">
+            <div class="my__message">Not that bad...</div>
+            <div class="my__time">18:14</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <form class="send-chat">
+      <i class="fas fa-plus-circle fa-lg"></i>
+      <input
+        class="send-chat__input"
+        type="text"
+        placeholder="write a message"
+      />
+      <i class="far fa-smile fa-lg"></i>
+      <div class="send-btn"><i class="fas fa-arrow-up"></i></div>
+    </form>
+  </body>
+</html>

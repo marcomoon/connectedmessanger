@@ -11,6 +11,7 @@
   font-weight: 500;
   font-size: 15px;
   background-color: var(--mid bg);
+  z-index: 10;
 }
 
 .status-bar div {

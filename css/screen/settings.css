@@ -1,0 +1,41 @@
+.main-settings,
+.sub-settings {
+  margin-top: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 3px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.main-settings {
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.setting-bar {
+  background-color: var(--ligbg);
+  height: 60px;
+  width: 95%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  padding: 0 30px;
+  box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.setting__header i {
+  margin-right: 20px;
+}
+
+.setting-name {
+  font-weight: 500;
+}
+
+.setting__footer {
+  font-size: 15px;
+  opacity: 0.5;
+}
