@@ -24,3 +24,11 @@
 .fa-angle-left {
   margin-right: 15px;
 }
+
+.fa-cog {
+  transition: transform 2s ease-in-out;
+}
+
+.fa-cog:hover {
+  transform: rotateZ(1080deg);
+}

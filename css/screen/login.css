@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 50px;
   font-weight: 500;
 }
 
@@ -75,4 +75,65 @@
 .forgot-info {
   margin-top: 15px;
   font-size: 10px;
+}
+
+.container > .fa-connectdevelop {
+  position: absolute;
+  z-index: -1;
+  font-size: 200px;
+  color: var(--pointc);
+  animation: rotate 10s ease-in-out infinite;
+  top: 35%;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateZ(0) rotateX(0) rotateY(0);
+  }
+  to {
+    transform: rotateZ(1080deg) rotateX(360deg) rotateY(360deg);
+  }
+}
+
+@keyframes lowrotate {
+  from {
+    transform: rotateZ(0) scale(0);
+  }
+  to {
+    transform: rotateZ(180deg) scale(3);
+  }
+}
+
+.intro-bg {
+  position: absolute;
+  width: 100%;
+  height: 126vh;
+  background: -webkit-linear-gradient(
+    7deg,
+    rgb(131, 58, 180),
+    rgb(251, 194, 235)
+  );
+  background: linear-gradient(7deg, rgb(131, 58, 180), rgb(251, 194, 235));
+  z-index: 11;
+  animation: fadeaway 1s 1s linear forwards;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 23vh;
+}
+
+@keyframes fadeaway {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    display: none;
+    background-image: none;
+    visibility: hidden;
+  }
+}
+
+.intro-bg > .fa-connectdevelop {
+  animation: lowrotate 3s ease-in-out forwards;
 }

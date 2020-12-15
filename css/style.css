@@ -20,6 +20,7 @@
 @import "component/nav.css";
 @import "component/screen-header.css";
 @import "component/user-component.css";
+@import "component/no-mobile.css";
 
 body {
   background-color: var(--midbg);
